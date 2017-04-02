@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WSMobileApplication.BusinessService.WagonStationService" CodeBehind="WagonStationService.svc.cs" %>

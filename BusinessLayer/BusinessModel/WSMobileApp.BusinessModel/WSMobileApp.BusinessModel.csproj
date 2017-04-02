@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7263585A-9871-40DF-8F4C-B7BD785A746B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WSMobileApp.BusinessModel</RootNamespace>
+    <AssemblyName>WSMobileApp.BusinessModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collections\AttachmentCollection.cs" />
+    <Compile Include="Collections\BaseCollection.cs" />
+    <Compile Include="Collections\BusinessNatureTypeCollection.cs" />
+    <Compile Include="Collections\BusinessTypeCollection.cs" />
+    <Compile Include="Collections\CarDetailsCollection.cs" />
+    <Compile Include="Collections\DealerProfileCollection.cs" />
+    <Compile Include="Collections\DealerRatingsCollection.cs" />
+    <Compile Include="Collections\OfferDetailsCollection.cs" />
+    <Compile Include="Collections\ServiceDescriptionCollection.cs" />
+    <Compile Include="Collections\ServiceRequestCollection.cs" />
+    <Compile Include="Collections\ServiceStatusCollection.cs" />
+    <Compile Include="Collections\UserProfileCollection.cs" />
+    <Compile Include="Collections\UserServiceHistoryCollection.cs" />
+    <Compile Include="Entities\AttachmentEntity.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\BusinessNatureTypeEntity.cs" />
+    <Compile Include="Entities\BusinessTypeEntity.cs" />
+    <Compile Include="Entities\CarDetailsEntity.cs" />
+    <Compile Include="Entities\DealerProfileEntity.cs" />
+    <Compile Include="Entities\DealerRatingsEntity.cs" />
+    <Compile Include="Entities\DealerServiceCollection.cs" />
+    <Compile Include="Entities\DealerServiceEntity.cs" />
+    <Compile Include="Entities\FilterDealerCriteria.cs" />
+    <Compile Include="Entities\OfferDetailsEntity.cs" />
+    <Compile Include="Entities\ServiceDescriptionEntity.cs" />
+    <Compile Include="Entities\ServiceRequestEntity.cs" />
+    <Compile Include="Entities\ServiceStatusEntity.cs" />
+    <Compile Include="Entities\SmsStatusEntity.cs" />
+    <Compile Include="Entities\SmsTemplateEntity.cs" />
+    <Compile Include="Entities\SmsTemplateResponseEntity.cs" />
+    <Compile Include="Entities\UpdateMobileNumberEntity.cs" />
+    <Compile Include="Entities\UserLoginEntity.cs" />
+    <Compile Include="Entities\UserProfileEntity.cs" />
+    <Compile Include="Entities\UserServiceHistoryEntity.cs" />
+    <Compile Include="Entities\UserTypeEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

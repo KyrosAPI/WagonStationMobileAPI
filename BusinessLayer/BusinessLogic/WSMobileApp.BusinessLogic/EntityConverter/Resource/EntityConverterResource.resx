@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppointmentAcceptedOn" xml:space="preserve">
+    <value>AppointmentAcceptedOn</value>
+  </data>
+  <data name="AppointmentDate" xml:space="preserve">
+    <value>AppointmentDate</value>
+  </data>
+  <data name="AppointmentRequestDate" xml:space="preserve">
+    <value>AppointmentRequestDate</value>
+  </data>
+  <data name="AppointmentTime" xml:space="preserve">
+    <value>AppointmentTime</value>
+  </data>
+  <data name="AttachmentId" xml:space="preserve">
+    <value>AttachmentId</value>
+  </data>
+  <data name="BusinessNatureTypeCode" xml:space="preserve">
+    <value>BusinessNatureTypeCode</value>
+  </data>
+  <data name="BusinessNatureTypeDescription" xml:space="preserve">
+    <value>BusinessNatureTypeDescription</value>
+  </data>
+  <data name="BusinessNatureTypeId" xml:space="preserve">
+    <value>BusinessNatureTypeId</value>
+  </data>
+  <data name="BusinessTypeCode" xml:space="preserve">
+    <value>BusinessTypeCode</value>
+  </data>
+  <data name="BusinessTypeDescription" xml:space="preserve">
+    <value>BusinessTypeDescription</value>
+  </data>
+  <data name="BusinessTypeId" xml:space="preserve">
+    <value>BusinessTypeId</value>
+  </data>
+  <data name="CarDetailsid" xml:space="preserve">
+    <value>CarDetailsid</value>
+  </data>
+  <data name="carmakeyear" xml:space="preserve">
+    <value>carmakeyear</value>
+  </data>
+  <data name="CarModelName" xml:space="preserve">
+    <value>CarModelName</value>
+  </data>
+  <data name="carname" xml:space="preserve">
+    <value>carname</value>
+  </data>
+  <data name="CarPictureAttachmentId" xml:space="preserve">
+    <value>CarPictureAttachmentId</value>
+  </data>
+  <data name="CarPictureFileSource" xml:space="preserve">
+    <value>CarPictureFileSource</value>
+  </data>
+  <data name="CarPictureUploadedOn" xml:space="preserve">
+    <value>CarPictureUploadedOn</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>ContentType</value>
+  </data>
+  <data name="DealerProfileId" xml:space="preserve">
+    <value>DealerProfileId</value>
+  </data>
+  <data name="DealerRatingsId" xml:space="preserve">
+    <value>DealerRatingsId</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="FileBinary" xml:space="preserve">
+    <value>FileBinary</value>
+  </data>
+  <data name="FileName" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="FileSource" xml:space="preserve">
+    <value>FileSource</value>
+  </data>
+  <data name="GoogleApiKey" xml:space="preserve">
+    <value>GoogleApiKey</value>
+  </data>
+  <data name="IsPickupDropAvailable" xml:space="preserve">
+    <value>IsPickupDropAvailable</value>
+  </data>
+  <data name="IsPromotionalEmailRequired" xml:space="preserve">
+    <value>IsPromotionalEmailRequired</value>
+  </data>
+  <data name="LastLoginOn" xml:space="preserve">
+    <value>LastLoginOn</value>
+  </data>
+  <data name="Latitude" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Longitude" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="NumberPlate" xml:space="preserve">
+    <value>NumberPlate</value>
+  </data>
+  <data name="OfferCount" xml:space="preserve">
+    <value>OfferCount</value>
+  </data>
+  <data name="OfferDescription" xml:space="preserve">
+    <value>OfferDescription</value>
+  </data>
+  <data name="OfferDetailsId" xml:space="preserve">
+    <value>OfferDetailsId</value>
+  </data>
+  <data name="OfferEndDate" xml:space="preserve">
+    <value>OfferEndDate</value>
+  </data>
+  <data name="OfferStartDate" xml:space="preserve">
+    <value>OfferStartDate</value>
+  </data>
+  <data name="OneTimePassword" xml:space="preserve">
+    <value>OneTimePassword</value>
+  </data>
+  <data name="OverAllRating" xml:space="preserve">
+    <value>OverAllRating</value>
+  </data>
+  <data name="PendingForServiceRequestCount" xml:space="preserve">
+    <value>PendingForServiceRequestCount</value>
+  </data>
+  <data name="PinCode" xml:space="preserve">
+    <value>PinCode</value>
+  </data>
+  <data name="ProfilePictureAttachmentId" xml:space="preserve">
+    <value>ProfilePictureAttachmentId</value>
+  </data>
+  <data name="ProfilePictureSource" xml:space="preserve">
+    <value>ProfilePictureSource</value>
+  </data>
+  <data name="ProfilePictureUploadedOn" xml:space="preserve">
+    <value>ProfilePictureUploadedOn</value>
+  </data>
+  <data name="RatedOn" xml:space="preserve">
+    <value>RatedOn</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="RatingDescription" xml:space="preserve">
+    <value>RatingDescription</value>
+  </data>
+  <data name="ServiceAttachmentId" xml:space="preserve">
+    <value>ServiceAttachmentId</value>
+  </data>
+  <data name="ServiceDealerBusinessCount" xml:space="preserve">
+    <value>ServiceDealerBusinessCount</value>
+  </data>
+  <data name="ServiceDeliveredOn" xml:space="preserve">
+    <value>ServiceDeliveredOn</value>
+  </data>
+  <data name="ServiceDescription" xml:space="preserve">
+    <value>ServiceDescription</value>
+  </data>
+  <data name="ServiceDescriptionId" xml:space="preserve">
+    <value>ServiceDescriptionId</value>
+  </data>
+  <data name="ServiceDescriptionType" xml:space="preserve">
+    <value>ServiceDescriptionType</value>
+  </data>
+  <data name="ServiceDescriptionTypeCode" xml:space="preserve">
+    <value>ServiceDescriptionTypeCode</value>
+  </data>
+  <data name="ServiceDescriptionTypeId" xml:space="preserve">
+    <value>ServiceDescriptionTypeId</value>
+  </data>
+  <data name="ServiceRequestId" xml:space="preserve">
+    <value>ServiceRequestId</value>
+  </data>
+  <data name="ServiceRequestNo" xml:space="preserve">
+    <value>ServiceRequestNo</value>
+  </data>
+  <data name="ServiceStatusId" xml:space="preserve">
+    <value>ServiceStatusId</value>
+  </data>
+  <data name="ServiceStatusTypeCode" xml:space="preserve">
+    <value>ServiceStatusTypeCode</value>
+  </data>
+  <data name="ServiceStatusTypeDescription" xml:space="preserve">
+    <value>ServiceStatusTypeDescription</value>
+  </data>
+  <data name="ServiceStatusTypeId" xml:space="preserve">
+    <value>ServiceStatusTypeId</value>
+  </data>
+  <data name="ShopAddress" xml:space="preserve">
+    <value>ShopAddress</value>
+  </data>
+  <data name="ShopName" xml:space="preserve">
+    <value>ShopName</value>
+  </data>
+  <data name="ShopPictureAttachmentId" xml:space="preserve">
+    <value>ShopPictureAttachmentId</value>
+  </data>
+  <data name="ShopPictureFileSource" xml:space="preserve">
+    <value>ShopPictureFileSource</value>
+  </data>
+  <data name="ShopPictureUploadedOn" xml:space="preserve">
+    <value>ShopPictureUploadedOn</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_001" xml:space="preserve">
+    <value>Invalid Mobile Number or Password</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_002" xml:space="preserve">
+    <value>Mobile number already registered</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_003" xml:space="preserve">
+    <value>Mobile number already registered</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_004" xml:space="preserve">
+    <value>Invalid Old Password</value>
+  </data>
+  <data name="StatusUpdatedOn" xml:space="preserve">
+    <value>StatusUpdatedOn</value>
+  </data>
+  <data name="StoreDealerBusinessCount" xml:space="preserve">
+    <value>StoreDealerBusinessCount</value>
+  </data>
+  <data name="UploadedOn" xml:space="preserve">
+    <value>UploadedOn</value>
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>UserEmail</value>
+  </data>
+  <data name="UserMobileNumber" xml:space="preserve">
+    <value>UserMobileNumber</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="UserPassword" xml:space="preserve">
+    <value>UserPassword</value>
+  </data>
+  <data name="UserProfileId" xml:space="preserve">
+    <value>UserProfileId</value>
+  </data>
+  <data name="UserProfilePictureId" xml:space="preserve">
+    <value>UserProfilePictureId</value>
+  </data>
+  <data name="UserQualifier" xml:space="preserve">
+    <value>UserQualifier</value>
+  </data>
+  <data name="UserTypeCode" xml:space="preserve">
+    <value>UserTypeCode</value>
+  </data>
+  <data name="UserTypeDescription" xml:space="preserve">
+    <value>UserTypeDescription</value>
+  </data>
+  <data name="UserTypeId" xml:space="preserve">
+    <value>UserTypeId</value>
+  </data>
+  <data name="WashDealerBusinessCount" xml:space="preserve">
+    <value>WashDealerBusinessCount</value>
+  </data>
+  <data name="ProfilePictureContentType" xml:space="preserve">
+    <value>ProfilePictureContentType</value>
+  </data>
+  <data name="ProfilePictureFileBinary" xml:space="preserve">
+    <value>ProfilePictureFileBinary</value>
+  </data>
+  <data name="ProfilePictureFileName" xml:space="preserve">
+    <value>ProfilePictureFileName</value>
+  </data>
+  <data name="ShopPictureContentType" xml:space="preserve">
+    <value>ShopPictureContentType</value>
+  </data>
+  <data name="ShopPictureFileBinary" xml:space="preserve">
+    <value>ShopPictureFileBinary</value>
+  </data>
+  <data name="ShopPictureFileName" xml:space="preserve">
+    <value>ShopPictureFileName</value>
+  </data>
+  <data name="CarPictureContentType" xml:space="preserve">
+    <value>CarPictureContentType</value>
+  </data>
+  <data name="CarPictureFileBinary" xml:space="preserve">
+    <value>CarPictureFileBinary</value>
+  </data>
+  <data name="CarPictureFileName" xml:space="preserve">
+    <value>CarPictureFileName</value>
+  </data>
+  <data name="RatedUserEmail" xml:space="preserve">
+    <value>RatedUserEmail</value>
+  </data>
+  <data name="RatedUserMobileNumber" xml:space="preserve">
+    <value>RatedUserMobileNumber</value>
+  </data>
+  <data name="RatedUserName" xml:space="preserve">
+    <value>RatedUserName</value>
+  </data>
+  <data name="RatedUserProfileId" xml:space="preserve">
+    <value>RatedUserProfileId</value>
+  </data>
+  <data name="ServiceHistoryCount" xml:space="preserve">
+    <value>ServiceHistoryCount</value>
+  </data>
+  <data name="PendingServiceCount" xml:space="preserve">
+    <value>PendingServiceCount</value>
+  </data>
+  <data name="ServiceRequestPendingForApprovalCount" xml:space="preserve">
+    <value>ServiceRequestPendingForApprovalCount</value>
+  </data>
+  <data name="SERVICE_ERROR_01" xml:space="preserve">
+    <value>Service Request Already Raised</value>
+  </data>
+  <data name="IsPickUpDropFacilityAvailable" xml:space="preserve">
+    <value>IsPickUpDropFacilityAvailable</value>
+  </data>
+  <data name="AuthorizedDealershipName" xml:space="preserve">
+    <value>AuthorizedDealershipName</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_005" xml:space="preserve">
+    <value>Invalid Mobile Number</value>
+  </data>
+  <data name="CarDisplayName" xml:space="preserve">
+    <value>CarDisplayName</value>
+  </data>
+  <data name="CarTrackingId" xml:space="preserve">
+    <value>CarTrackingId</value>
+  </data>
+  <data name="IsReviewSubmitted" xml:space="preserve">
+    <value>IsReviewSubmitted</value>
+  </data>
+  <data name="CancelReason" xml:space="preserve">
+    <value>CancelReason</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>DeviceId</value>
+  </data>
+  <data name="SenderId" xml:space="preserve">
+    <value>SenderId</value>
+  </data>
+  <data name="IsOneTimePasswordVerified" xml:space="preserve">
+    <value>IsOneTimePasswordVerified</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_006" xml:space="preserve">
+    <value>Invalid one time password</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_007" xml:space="preserve">
+    <value>One Time Password not verified</value>
+  </data>
+  <data name="SQL_VALIDATION_ERROR_008" xml:space="preserve">
+    <value>Device Id already registered</value>
+  </data>
+</root>

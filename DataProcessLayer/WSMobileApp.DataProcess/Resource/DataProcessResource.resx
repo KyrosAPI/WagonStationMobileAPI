@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="spparam_AttachmentId" xml:space="preserve">
+    <value>@AttachmentId</value>
+  </data>
+  <data name="spparam_BusinessNatureTypeId" xml:space="preserve">
+    <value>@BusinessNatureTypeId</value>
+  </data>
+  <data name="spparam_BusinessTypeId" xml:space="preserve">
+    <value>@BusinessTypeId</value>
+  </data>
+  <data name="spparam_cardetailsid" xml:space="preserve">
+    <value>@cardetailsid</value>
+  </data>
+  <data name="spparam_carmakeyear" xml:space="preserve">
+    <value>@carmakeyear</value>
+  </data>
+  <data name="spparam_carname" xml:space="preserve">
+    <value>@carname</value>
+  </data>
+  <data name="spparam_carnumber" xml:space="preserve">
+    <value>@carnumber</value>
+  </data>
+  <data name="spparam_ContentType" xml:space="preserve">
+    <value>@ContentType</value>
+  </data>
+  <data name="spparam_DealerProfileId" xml:space="preserve">
+    <value>@DealerProfileId</value>
+  </data>
+  <data name="spparam_DealerRatingsId" xml:space="preserve">
+    <value>@DealerRatingsId</value>
+  </data>
+  <data name="spparam_FileBinary" xml:space="preserve">
+    <value>@FileBinary</value>
+  </data>
+  <data name="spparam_FileName" xml:space="preserve">
+    <value>@FileName</value>
+  </data>
+  <data name="spparam_IsPromotionalEmailRequired" xml:space="preserve">
+    <value>@IsPromotionalEmailRequired</value>
+  </data>
+  <data name="spparam_Latitude" xml:space="preserve">
+    <value>@Latitude</value>
+  </data>
+  <data name="spparam_Longitude" xml:space="preserve">
+    <value>@Longitude</value>
+  </data>
+  <data name="spparam_NewPassword" xml:space="preserve">
+    <value>@NewPassword</value>
+  </data>
+  <data name="spparam_OfferDescription" xml:space="preserve">
+    <value>@OfferDescription</value>
+  </data>
+  <data name="spparam_OfferDetailsId" xml:space="preserve">
+    <value>@OfferDetailsId</value>
+  </data>
+  <data name="spparam_OfferEndDate" xml:space="preserve">
+    <value>@OfferEndDate</value>
+  </data>
+  <data name="spparam_OfferStartDate" xml:space="preserve">
+    <value>@OfferStartDate</value>
+  </data>
+  <data name="spparam_OldPassword" xml:space="preserve">
+    <value>@OldPassword</value>
+  </data>
+  <data name="spparam_OneTimePassword" xml:space="preserve">
+    <value>@OneTimePassword</value>
+  </data>
+  <data name="spparam_PinCode" xml:space="preserve">
+    <value>@PinCode</value>
+  </data>
+  <data name="spparam_Rating" xml:space="preserve">
+    <value>@Rating</value>
+  </data>
+  <data name="spparam_RatingDescription" xml:space="preserve">
+    <value>@RatingDescription</value>
+  </data>
+  <data name="spparam_ShopAddress" xml:space="preserve">
+    <value>@ShopAddress</value>
+  </data>
+  <data name="spparam_ShopName" xml:space="preserve">
+    <value>@ShopName</value>
+  </data>
+  <data name="spparam_UserEmail" xml:space="preserve">
+    <value>@UserEmail</value>
+  </data>
+  <data name="spparam_UserMobileNumber" xml:space="preserve">
+    <value>@UserMobileNumber</value>
+  </data>
+  <data name="spparam_UserName" xml:space="preserve">
+    <value>@UserName</value>
+  </data>
+  <data name="spparam_UserPassword" xml:space="preserve">
+    <value>@UserPassword</value>
+  </data>
+  <data name="spparam_UserProfileId" xml:space="preserve">
+    <value>@UserProfileId</value>
+  </data>
+  <data name="spparam_UserQualifier" xml:space="preserve">
+    <value>@UserQualifier</value>
+  </data>
+  <data name="spparam_UserTypeId" xml:space="preserve">
+    <value>@UserTypeID</value>
+  </data>
+  <data name="usp_ChangePassword" xml:space="preserve">
+    <value>[UserInfo].[usp_ChangePassword]</value>
+  </data>
+  <data name="usp_CreateDealerRatings" xml:space="preserve">
+    <value>[DealerInfo].[usp_CreateDealerRatings]</value>
+  </data>
+  <data name="usp_DeleteDealerRatings" xml:space="preserve">
+    <value>[DealerInfo].[usp_DeleteDealerRatings]</value>
+  </data>
+  <data name="usp_DeleteOfferDetails" xml:space="preserve">
+    <value>[DealerInfo].[usp_DeleteOfferDetails]</value>
+  </data>
+  <data name="usp_ForgotPassword" xml:space="preserve">
+    <value>[UserInfo].[usp_ForgotPassword]</value>
+  </data>
+  <data name="usp_GetAttachmentById" xml:space="preserve">
+    <value>[WagonStation].[usp_GetAttachmentById]</value>
+  </data>
+  <data name="usp_GetDealerRatingByDealerProfileId" xml:space="preserve">
+    <value>[DealerInfo].[usp_GetDealerRatingByDealerProfileId]</value>
+  </data>
+  <data name="usp_GetOfferDetailsByDealerProfileId" xml:space="preserve">
+    <value>[DealerInfo].[usp_GetOfferDetailsByDealerProfileId]</value>
+  </data>
+  <data name="usp_GetOfferDetailsById" xml:space="preserve">
+    <value>[DealerInfo].[usp_GetOfferDetailsById]</value>
+  </data>
+  <data name="usp_GetOfferDetailsByUserProfileId" xml:space="preserve">
+    <value>[DealerInfo].[usp_GetOfferDetailsByUserProfileId]</value>
+  </data>
+  <data name="usp_ManageCarDetails" xml:space="preserve">
+    <value>[UserInfo].[usp_ManageCarDetails]</value>
+  </data>
+  <data name="usp_ManageDealerProfile" xml:space="preserve">
+    <value>[DealerInfo].[usp_ManageDealerProfile]</value>
+  </data>
+  <data name="usp_ManageOfferDetails" xml:space="preserve">
+    <value>[DealerInfo].[usp_ManageOfferDetails]</value>
+  </data>
+  <data name="usp_ManageProfilePicture" xml:space="preserve">
+    <value>[UserInfo].[usp_ManageProfilePicture]</value>
+  </data>
+  <data name="usp_ManageShopPicture" xml:space="preserve">
+    <value>[DealerInfo].[usp_ManageShopPicture]</value>
+  </data>
+  <data name="usp_ManageUserProfile" xml:space="preserve">
+    <value>[UserInfo].[usp_ManageUserProfile]</value>
+  </data>
+  <data name="usp_ResendOneTimePassword" xml:space="preserve">
+    <value>[UserInfo].[usp_ResendOneTimePassword]</value>
+  </data>
+  <data name="usp_UpdateMobileNumber" xml:space="preserve">
+    <value>[UserInfo].[usp_UpdateMobileNumber]</value>
+  </data>
+  <data name="usp_UserLogin" xml:space="preserve">
+    <value>[UserInfo].[usp_UserLogin]</value>
+  </data>
+  <data name="usp_ValidateOneTimePassword" xml:space="preserve">
+    <value>[UserInfo].[usp_ValidateOneTimePassword]</value>
+  </data>
+  <data name="spparam_CarModelName" xml:space="preserve">
+    <value>@CarModelName</value>
+  </data>
+  <data name="usp_DeleteCardetailsbyId" xml:space="preserve">
+    <value>[UserInfo].[usp_DeleteCardetailsbyId]</value>
+  </data>
+  <data name="usp_GetCarDetailsbyId" xml:space="preserve">
+    <value>[UserInfo].[usp_GetCarDetailsbyId]</value>
+  </data>
+  <data name="usp_GetCarDetailsbyUserprofileId" xml:space="preserve">
+    <value>[UserInfo].[usp_GetCarDetailsbyUserprofileId]</value>
+  </data>
+  <data name="usp_DeleteAttachmentById" xml:space="preserve">
+    <value>[WagonStation].[usp_DeleteAttachmentById]</value>
+  </data>
+  <data name="usp_DeleteProfilePicture" xml:space="preserve">
+    <value>[UserInfo].[usp_DeleteProfilePicture]</value>
+  </data>
+  <data name="usp_DeleteShopPicture" xml:space="preserve">
+    <value>[UserInfo].[usp_DeleteShopPicture]</value>
+  </data>
+  <data name="usp_ManagePicture" xml:space="preserve">
+    <value>[WagonStation].[usp_ManagePicture]</value>
+  </data>
+  <data name="spparam_CurrentDate" xml:space="preserve">
+    <value>@CurrentDate</value>
+  </data>
+  <data name="spparam_CurrentLatitude" xml:space="preserve">
+    <value>@CurrentLatitude</value>
+  </data>
+  <data name="spparam_CurrentLongitude" xml:space="preserve">
+    <value>@CurrentLongitude</value>
+  </data>
+  <data name="usp_UserLandingPageDetails" xml:space="preserve">
+    <value>[UserInfo].[usp_UserLandingPageDetails]</value>
+  </data>
+  <data name="usp_GetDealerDetailsByDistance" xml:space="preserve">
+    <value>[DealerInfo].[usp_GetDealerDetailsByDistance]</value>
+  </data>
+  <data name="usp_GetDealerProfileById" xml:space="preserve">
+    <value>[DealerInfo].[usp_GetDealerProfileById]</value>
+  </data>
+  <data name="usp_SortDealerDetailsByDistance" xml:space="preserve">
+    <value>[DealerInfo].[usp_SortDealerDetailsByDistance]</value>
+  </data>
+  <data name="usp_SortDealerDetailsByRatings" xml:space="preserve">
+    <value>[DealerInfo].[usp_SortDealerDetailsByRatings]</value>
+  </data>
+  <data name="usp_UserLandingPageDetailsByBusinessType" xml:space="preserve">
+    <value>[UserInfo].[usp_UserLandingPageDetailsByBusinessType]</value>
+  </data>
+  <data name="spparam_FileSource" xml:space="preserve">
+    <value>@FileSource</value>
+  </data>
+  <data name="spparam_AppointmentDate" xml:space="preserve">
+    <value>@AppointmentDate</value>
+  </data>
+  <data name="spparam_AppointmentRequestDate" xml:space="preserve">
+    <value>@AppointmentRequestDate</value>
+  </data>
+  <data name="spparam_AppointmentTime" xml:space="preserve">
+    <value>@AppointmentTime</value>
+  </data>
+  <data name="spparam_AttachmentIds" xml:space="preserve">
+    <value>@AttachmentIds</value>
+  </data>
+  <data name="spparam_InspectionDescription" xml:space="preserve">
+    <value>@InspectionDescription</value>
+  </data>
+  <data name="spparam_IsPickupDropAvailable" xml:space="preserve">
+    <value>@IsPickupDropAvailable</value>
+  </data>
+  <data name="spparam_PeriodicMaintenanceDescription" xml:space="preserve">
+    <value>@PeriodicMaintenanceDescription</value>
+  </data>
+  <data name="spparam_ServiceRequestId" xml:space="preserve">
+    <value>@ServiceRequestId</value>
+  </data>
+  <data name="spparam_SpecificationDescription" xml:space="preserve">
+    <value>@SpecificationDescription</value>
+  </data>
+  <data name="usp_ManageServiceRequest" xml:space="preserve">
+    <value>[ServiceInfo].[usp_ManageServiceRequest]</value>
+  </data>
+  <data name="spparam_GoogleApiKey" xml:space="preserve">
+    <value>@GoogleApiKey</value>
+  </data>
+  <data name="spparam_AttachmentFileName" xml:space="preserve">
+    <value>@AttachmentFileName</value>
+  </data>
+  <data name="usp_GetUserServiceHistory" xml:space="preserve">
+    <value>[ServiceInfo].[usp_GetUserServiceHistory]</value>
+  </data>
+  <data name="spparam_ServiceStatusTypeId" xml:space="preserve">
+    <value>@ServiceStatusTypeId</value>
+  </data>
+  <data name="usp_ManageServiceStatus" xml:space="preserve">
+    <value>[ServiceInfo].[usp_ManageServiceStatus]</value>
+  </data>
+  <data name="usp_GetDealerPendingForAction" xml:space="preserve">
+    <value>[ServiceInfo].[usp_GetDealerPendingForAction]</value>
+  </data>
+  <data name="usp_GetDealerPendingForApproval" xml:space="preserve">
+    <value>[ServiceInfo].[usp_GetDealerPendingForApproval]</value>
+  </data>
+  <data name="usp_GetActiveServicesByUserProfileId" xml:space="preserve">
+    <value>[ServiceInfo].[usp_GetActiveServicesByUserProfileId]</value>
+  </data>
+  <data name="usp_GetDealerPendingForActionByUserProfileId" xml:space="preserve">
+    <value>[ServiceInfo].[usp_GetDealerPendingForActionByUserProfileId]</value>
+  </data>
+  <data name="usp_GetDealerPendingForApprovalByUserProfileId" xml:space="preserve">
+    <value>[ServiceInfo].[usp_GetDealerPendingForApprovalByUserProfileId]</value>
+  </data>
+  <data name="spparam_IsPickupDropFacilityAvailable" xml:space="preserve">
+    <value>@IsPickupDropFacilityAvailable</value>
+  </data>
+  <data name="spparam_AuthorizedDealershipName" xml:space="preserve">
+    <value>@AuthorizedDealershipName</value>
+  </data>
+  <data name="spparam_CarDisplayName" xml:space="preserve">
+    <value>@CarDisplayName</value>
+  </data>
+  <data name="spparam_CarTrackingId" xml:space="preserve">
+    <value>@CarTrackingId</value>
+  </data>
+  <data name="usp_IsMobileNumberRegistered" xml:space="preserve">
+    <value>[UserInfo].[usp_IsMobileNumberRegistered]</value>
+  </data>
+  <data name="spparam_CancelReason" xml:space="preserve">
+    <value>@CancelReason</value>
+  </data>
+  <data name="usp_CancelServiceRequestByDealer" xml:space="preserve">
+    <value>[ServiceInfo].[usp_CancelServiceRequestByDealer]</value>
+  </data>
+  <data name="usp_DealerServiceHistory" xml:space="preserve">
+    <value>[ServiceInfo].[usp_DealerServiceHistory]</value>
+  </data>
+  <data name="spparam_DeviceId" xml:space="preserve">
+    <value>@DeviceId</value>
+  </data>
+  <data name="spparam_SenderId" xml:space="preserve">
+    <value>@SenderId</value>
+  </data>
+  <data name="spparam_IsCompanyOwned" xml:space="preserve">
+    <value>@IsCompanyOwned</value>
+  </data>
+  <data name="spparam_IsHavingOffers" xml:space="preserve">
+    <value>@IsHavingOffers</value>
+  </data>
+  <data name="spparam_IsMultiBrand" xml:space="preserve">
+    <value>@IsMultiBrand</value>
+  </data>
+  <data name="usp_FilterDealerDetails" xml:space="preserve">
+    <value>[DealerInfo].usp_FilterDealerDetails</value>
+  </data>
+  <data name="usp_CheckOneTimePassword" xml:space="preserve">
+    <value>[UserInfo].[usp_CheckOneTimePassword]</value>
+  </data>
+</root>
